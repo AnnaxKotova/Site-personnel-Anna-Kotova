@@ -1,0 +1,62 @@
+*{
+    margin: O;
+    padding: O;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    }
+
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+
+header{
+    background-color: #1E4C51;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0; /*sinon if commençera dans quelques pixels*/
+}
+
+.logo-big{
+    width: 25vw;
+}
+
+.logo-small{
+    width: 5vw;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center; /*ceci pour centrer vérticallement*/
+    background-color: #1E4C51;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    width: 70vw;
+}
+
+.fixed{
+    position: fixed;
+}
+
+
+a:hover{
+    border-bottom: 2px solid white;
+}
+
+a.logo-big:hover, a.logo-small:hover{
+    border-bottom: none;
+}
+
+.test{
+    height: 1000px;
+    background-color: lightcoral;
+}
