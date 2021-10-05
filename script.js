@@ -16,13 +16,16 @@ function miniNav(){
     }
 }
 
+menu.onclick = function() {responsiveNav};
 
-// if ( < 200 || document.documentElement.scrollTop < 200){
-//     
-//     
-//     
-// }
-// else{
-//     logo[i].classList.remove("logo-small");
-//     logo[i].classList.add("logo-big");
+function responsiveNav(){
+    let nav = document.getElementById("menuBurger");
 
+    if (nav.className === "icone"){
+        nav.className += "responsiveNav";
+    }
+
+    else{
+        nav.className === "icone";
+    }
+}
